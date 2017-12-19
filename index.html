@@ -2,18 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Three.js based 2d fluid simulator. This project was developed for the INF555 - Digital Representations and Analysis of Shapes course at Ecole Polytechnique.">
-    <meta name="author" content="Lucas Lugao and Roger Lucena">    
-    <link rel="stylesheet" type="text/css" href="/static/main.css">
-    <title>FluidsGL</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Three.js based 2d fluid simulator. This project was developed for the INF555 - Digital Representations and Analysis of Shapes course at Ecole Polytechnique.">
+  <meta name="author" content="Lucas Lugao and Roger Lucena">
+  <link rel="stylesheet" type="text/css" href="/static/main.css">
+  <title>FluidsGL</title>
 </head>
 
 <body>
+  <div id="info">
+    <a href="https://github.com/lucaslugao/FluidsGL">https://github.com/lucaslugao/FluidsGL</a>
+    <br />
+    <b>Left mouse button:</b> Add force <br />
+    <b>Right mouse button:</b> Add source
+    <br /> Try also both at the same time </div>
   <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
   <script src="//rawgit.com/mrdoob/stats.js/master/build/stats.min.js" crossorigin="anonymous"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.5/dat.gui.min.js" integrity="sha256-S4/QjoXe4IOpU0f0Sj5jEQLTWPoX9uRl1ohB91jyhuw=" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.5/dat.gui.min.js" integrity="sha256-S4/QjoXe4IOpU0f0Sj5jEQLTWPoX9uRl1ohB91jyhuw="
+    crossorigin="anonymous"></script>
   <script src="/js/mouse.js"></script>
   <script src="/js/fileloader.js"></script>
   <script src="/js/doublebuffer.js"></script>
