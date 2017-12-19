@@ -1,6 +1,8 @@
 # FluidsGL
 
-Three.js based 2d fluid simulator. This project was developed for the *INF555 - Digital Representations and Analysis of Shapes* course at Ecole Polytechnique.
+Three.js based 2d fluid simulator. This project was developed for the *INF555 - Digital Representations and Analysis of Shapes* course at Ecole Polytechnique. 
+
+Demo available at: https://fluidsgl.herokuapp.com/
 
 References
 ----------
