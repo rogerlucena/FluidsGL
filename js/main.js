@@ -24,7 +24,7 @@ document.body.appendChild(stats.domElement);
 // GUI parameters
 var gui;
 
-var grid = {size: new THREE.Vector2(512, 512), scale: 1};
+var grid = {size: new THREE.Vector2(640, 360), scale: 1};
 var time = {timestep: 1};
 var parameters = {dissipation : 1.0, radius : 0.2, pause : false};
 var displaySettings = {slab: 'density'};
