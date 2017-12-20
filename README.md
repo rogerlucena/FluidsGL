@@ -2,7 +2,7 @@
 
 Three.js based 2d fluid simulator. This project was developed for the *INF555 - Digital Representations and Analysis of Shapes* course at École Polytechnique. 
 
-Demo available at: https://fluidsgl.herokuapp.com/
+Demo available at: https://fluidglapp.herokuapp.com
 
 References
 ----------
